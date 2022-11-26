@@ -1,0 +1,15 @@
+.orange {
+  background: orange;
+}
+
+.red {
+  background: rgb(245, 70, 70);
+}
+
+.red:hover {
+  background:rgb(225, 63, 63)
+}
+
+.orange:hover {
+  background: darkorange;
+}

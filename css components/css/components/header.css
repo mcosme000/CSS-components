@@ -1,0 +1,39 @@
+header {
+  margin-bottom: 20px;
+}
+
+.header-tab {
+  background: #fff;
+}
+.header-tab li {
+  color: rgb(139, 139, 139);
+  padding: 10px 0px;
+  margin-right: 10px;
+}
+
+.header-tab .selected {
+  color: #000;
+  border-bottom: 3px solid black;
+}
+
+.header-tab li:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* HEADER LOGO */
+
+
+
+.header-logo {
+  padding: 20px 0px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 0px 1px rgba(0,0,0,0.3);
+}
+
+.header-logo img {
+  width: 50px;
+}

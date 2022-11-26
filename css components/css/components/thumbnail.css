@@ -1,0 +1,77 @@
+.thumbnail-square {
+  width: 300px;
+  height: 300px;
+  background-image: url("/images/building.jpg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px; ;
+}
+
+.overlay {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: ease-out 0.4s;
+}
+
+.thumbnail-square:hover .overlay {
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.thumbnail-square:hover {
+  cursor: pointer;
+}
+
+/* Thumbnail social */
+.thumbnail-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  padding: 10px 20px;
+}
+
+.thumbnail-content {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.thumbnail-social .avatar {
+  margin-right: 20px;
+}
+
+.thumbnail-social h4, .thumbnail-social p {
+  margin: 0;
+}
+
+.thumbnail-social h4 {
+  color: grey;
+  font-size: 13px;
+}
+
+.thumbnail-social p {
+  font-size: 16px;
+}
+
+.social-overlay {
+  color: grey;
+  opacity: 0;
+  font-size: 14px;
+  transition: ease 0.2s;
+}
+
+.thumbnail-social:hover .social-overlay {
+  opacity: 1;
+  cursor: pointer;
+}
