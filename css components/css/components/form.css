@@ -1,0 +1,118 @@
+/* FORM BASIC STYLES */
+
+form label {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: block;
+}
+
+form input[type="text"], form input[type="password"] {
+  width: 100%;
+  padding: 10px;
+}
+
+form input[type="submit"] {
+  border: none;
+  margin-top: 10px;
+}
+
+form input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  padding: 20px;
+  background: #fff;
+  width: 350px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+/* - - SIMPLE FORM - - */
+
+.form-simple input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  width: 100%;
+  background: rgb(38, 119, 218);
+}
+
+.form-simple input[type="submit"]:hover {
+  background: rgb(32, 103, 190);
+}
+
+/* - - UNDERLINE FORM - - */
+
+.form-underline input[type="text"],
+.form-underline input[type="password"] {
+  border: none;
+  padding: 10px 0px;
+  width: 80%;
+}
+
+.form-underline input[type="text"]::after {
+  content: "****";
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.form-underline label {
+  font-size: 14px;
+  color: grey;
+}
+
+.form-underline input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(45, 45, 45);
+  color: #fff;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.form-underline label::after {
+  content: "*";
+  color: red;
+  margin-left: 5px;
+}
+
+.form-underline p {
+  font-size: 12px;
+}
+
+/* SELECT */
+
+
+.custom-select {
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background: rgb(180, 180, 180);
+  border-radius: 3px;
+  position: relative;
+  width: 150px;
+}
+
+.custom-select select {
+  max-width: 100%;
+  padding: 8px 24px 8px 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.custom-select::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 8px;
+  width: 0;
+  height: 0;
+  margin-top: -2px;
+  border-top: 5px solid #aaa;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}

@@ -81,3 +81,11 @@
   width: 10px;
   display: inline;
 }
+
+/* SOCIAL BUTTONS */
+.btn-social {
+  padding: 10px 30px;
+  background: #fff;
+  border: 0.5px solid #000;
+  border-radius: 50px;
+}

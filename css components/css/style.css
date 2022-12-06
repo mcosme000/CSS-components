@@ -13,6 +13,7 @@
 @import url("components/landing.css");
 @import url("components/header.css");
 @import url("components/colors.css");
+@import url("components/form.css");
 /* TODO: import new components */
 
 /* --- Fonts & colors --- */
@@ -44,6 +45,23 @@ li {
   margin: 10px;
   list-style: none;
   display: inline-block;
+}
+
+li.block {
+  display: block;
+}
+
+
+.text-16 {
+  font-size: 16px;
+}
+
+.text-14 {
+  font-size: 14px;
+}
+
+.text-12 {
+  font-size: 12px;
 }
 
 .text-center {

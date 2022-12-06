@@ -1,0 +1,81 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Combine your components</title>
+
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header class="container">
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="/pages/flexbox_cheatsheet.html">Flexbox Cheatsheet</li></a>
+    </ul>
+  </header>
+
+  <div class="container">
+    <h2 class="text-center">Forms</h2>
+
+    <div class="form-container">
+      <form action="" class="form-simple">
+        <h3 class="text-center">Login form</h3>
+        <div>
+          <label for="">Username</label>
+          <input type="text" placeholder="user name">
+        </div>
+        <div>
+          <label for="">Password</label>
+          <input type="password" placeholder="password">
+        </div>
+        <div>
+          <input type="submit" value="Login">
+        </div>
+      </form>
+    </div>
+
+    <div class="form-container">
+      <form action="" class="form-underline">
+        <h3>Sign up</h3>
+        <div>
+          <label for="">Username</label>
+          <div class="input-container">
+            <input type="text" placeholder="user name">
+          </div>
+        </div>
+        <div>
+          <label for="">Password</label>
+          <div class="input-container">
+            <input type="password" placeholder="password">
+            <p>Forgot</p>
+          </div>
+        </div>
+        <div>
+          <input type="submit" value="Login">
+        </div>
+      </form>
+      <p class="text-center text-12">Or sign up with other social account</p>
+      <ul>
+        <li class="btn-social text-12">Facebook</li>
+        <li class="btn-social text-12">Twitter</li>
+      </ul>
+    </div>
+
+    <div class="form-container">
+      <h3>SELECT</h3>
+      <div class="custom-select">
+        <select>
+          <option value="0">Select option</option>
+          <option value="1">option 1</option>
+          <option value="2">option 2</option>
+          <option value="3">option 3</option>
+        </select>
+      </div>
+    </div>
+  </div>
+  <!-- TODO: Use your components to create a simple landing page -->
+
+</body>
+
+</html>
